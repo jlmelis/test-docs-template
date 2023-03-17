@@ -36,6 +36,12 @@ spec:
           ui:options:
             allowedKinds:
               - Group
+        directions:
+          title: Directions
+          type: string
+          description: A list of directions
+          ui:widget: textarea
+          ui:options: 10
     - title: Choose a location
       required:
         - repoUrl
